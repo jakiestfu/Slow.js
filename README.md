@@ -20,3 +20,14 @@ How To: Hold down shift before interacting with any CSS transitions and they wil
 		</ul>
 	</li>
 </ul>
+
+## Usage
+
+````
+slow.listen({
+    keyCode: 16,
+    multiplier: 2
+});
+````
+
+This will make all CSS transition durations twice as long when the shift key is pressed.
